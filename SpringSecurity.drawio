@@ -192,8 +192,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-65" value="10. 如果上一步返回了 Authentication 对象&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;就是用&lt;br&gt;SecurityContextHolder.getContext.setAuthentication方法存储对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="690" width="370" height="40" as="geometry" />
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-65" value="10. 如果上一步返回了 Authentication 对象&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;就是用&lt;br&gt;SecurityContextHolder.getContext().setAuthentication方法存储对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="245" y="690" width="380" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
