@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="640" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="471" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -21,9 +21,9 @@
             <mxPoint x="215" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-14" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="dbT4wgJQlKrbsk1Rjgz7-10">
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-14" value="2.封装Authentication对象&lt;div&gt;只有用户名和密码，没有权限&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="dbT4wgJQlKrbsk1Rjgz7-10">
           <mxGeometry x="-0.5126" y="1" relative="1" as="geometry">
-            <mxPoint x="44" y="24" as="offset" />
+            <mxPoint x="114" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dbT4wgJQlKrbsk1Rjgz7-5" value="UsernamePasswordAuthenticationFilter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -32,8 +32,29 @@
         <mxCell id="dbT4wgJQlKrbsk1Rjgz7-6" value="AuthenticationManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="125" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dbT4wgJQlKrbsk1Rjgz7-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="560.6666870117188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dbT4wgJQlKrbsk1Rjgz7-8" value="ProviderManager" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="440" y="178" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-17" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="220" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="280" />
+              <mxPoint x="260" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-19" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="400" as="sourcePoint" />
+            <mxPoint x="650.6666870117188" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
