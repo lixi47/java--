@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="471" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="333" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="#FFFFFF" math="0" shadow="1">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -32,9 +32,10 @@
         <mxCell id="dbT4wgJQlKrbsk1Rjgz7-6" value="AuthenticationManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="125" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dbT4wgJQlKrbsk1Rjgz7-8">
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dbT4wgJQlKrbsk1Rjgz7-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="495" y="560.6666870117188" as="targetPoint" />
+            <mxPoint x="495" y="552.6666870117188" as="targetPoint" />
+            <mxPoint x="495" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dbT4wgJQlKrbsk1Rjgz7-8" value="ProviderManager" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -50,11 +51,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-19" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-19" value="" style="endArrow=classic;html=1;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="dbT4wgJQlKrbsk1Rjgz7-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="400" as="sourcePoint" />
+            <mxPoint x="210" y="400" as="sourcePoint" />
             <mxPoint x="650.6666870117188" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="dbT4wgJQlKrbsk1Rjgz7-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="552.6666870117188" as="targetPoint" />
+            <mxPoint x="495" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-30" value="4.调用DaoAuthenticationProvider&lt;div&gt;的authenticate方法进行认证&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="dbT4wgJQlKrbsk1Rjgz7-29">
+          <mxGeometry x="-0.4376" y="1" relative="1" as="geometry">
+            <mxPoint x="84" y="142" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="370" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-31" value="3.调用authenticate方法进行认证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="370" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
