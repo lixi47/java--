@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="615" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="#FFFFFF" math="0" shadow="1">
+    <mxGraphModel dx="471" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="#FFFFFF" math="0" shadow="1">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -18,7 +18,7 @@
         </mxCell>
         <mxCell id="dbT4wgJQlKrbsk1Rjgz7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dbT4wgJQlKrbsk1Rjgz7-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="215" y="680" as="targetPoint" />
+            <mxPoint x="215" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dbT4wgJQlKrbsk1Rjgz7-14" value="2.封装Authentication对象&lt;div&gt;只有用户名和密码，没有权限&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="dbT4wgJQlKrbsk1Rjgz7-10">
@@ -181,6 +181,19 @@
           <mxGeometry x="0.1277" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-64" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="690" as="sourcePoint" />
+            <mxPoint x="220" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="690" />
+              <mxPoint x="260" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbT4wgJQlKrbsk1Rjgz7-65" value="10. 如果上一步返回了 Authentication 对象&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;就是用&lt;br&gt;SecurityContextHolder.getContext.setAuthentication方法存储对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="690" width="370" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
