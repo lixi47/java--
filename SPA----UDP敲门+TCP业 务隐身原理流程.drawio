@@ -1,0 +1,279 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="第 1 页" id="DA86E5S3Rui6vH5Qsvgz">
+    <mxGraphModel dx="2028" dy="1135" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-6" value="aTrust客户端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-7" value="aTrust客户端虚拟网卡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="100" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-8" value="PC本地首选DNS&lt;br&gt;114.114.114.114" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="833" y="100" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-9" value="控制中心用户接入地址为&lt;br&gt;https://www.sdpc.com&lt;br&gt;（&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;域名解析为100.100.100.100&lt;/font&gt;）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1159" y="90" width="208" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="128" as="sourcePoint" />
+            <mxPoint x="1367" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304" y="1072" as="sourcePoint" />
+            <mxPoint x="307" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="611" y="1072" as="sourcePoint" />
+            <mxPoint x="617" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="897" y="1072" as="sourcePoint" />
+            <mxPoint x="900" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1273" y="1072" as="sourcePoint" />
+            <mxPoint x="1276" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-22" value="用户安装&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;aTrust&lt;/font&gt;客户端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="146" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="175.13" as="sourcePoint" />
+            <mxPoint x="1272" y="175.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-25" value="aTrust客户端设置接入地址为https://www.sdpc.com,&lt;br&gt;此时用户未获取安全码，未输入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="142" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1268" y="227" as="sourcePoint" />
+            <mxPoint x="306" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-28" value="返回响应超时" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="190" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-29" value="接收到数据包，检查本地ip-table，发现端口未对该IP开放，因此不响应请求，将数据包丢弃" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="927" y="190" width="322" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-30" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;注意：安装客户端后，aTrust下发的dns和路由是常驻的，即使未登录aTrust也会存在&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="637" y="275" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="306" y="278" as="sourcePoint" />
+            <mxPoint x="306" y="363" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="324" y="295" />
+              <mxPoint x="357" y="299" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-32" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;用户获取SPA安全码，并在客户端接入设置输入安全码&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="298" width="252" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="616" y="420" as="sourcePoint" />
+            <mxPoint x="304" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-35" value="&lt;font&gt;下发dns-198.18.0.1作为首选【会拦截用户对www.sdpc.com的dns解析请求，并把该域名解析为198.18.x.x段（fake-ip段）的IP地址】&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="378" width="282" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="476" as="sourcePoint" />
+            <mxPoint x="302" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-37" value="下发路由，访问fake-ip段（198.18.0.0/16）的下一跳为aTrust虚拟网卡的地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="435" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="512" as="sourcePoint" />
+            <mxPoint x="620" y="512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-40" value="aTrust客户端向198.18.0.1请求解析该域名" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="488" width="247" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="548" as="sourcePoint" />
+            <mxPoint x="897" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-42" value="aTrust客户端向PC本地的首选DNS请求解析www.sdpc.com的真实地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="623" y="511" width="273" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="897" y="582" as="sourcePoint" />
+            <mxPoint x="614" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-45" value="返回结果100.100.100.100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="731" y="559" width="156" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="614" as="sourcePoint" />
+            <mxPoint x="302" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-47" value="Fake-dns将该域名解析&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;为198.18.0.2并返回给客户端&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="308" y="585" width="293" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="668" as="sourcePoint" />
+            <mxPoint x="614" y="668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-62" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;请求与198.18.0.2建立TCP三次握手，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;本地网卡查路由后将数据发送到&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;aTrust虚拟网卡（即客户端&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="631" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="616" y="702" as="sourcePoint" />
+            <mxPoint x="304" y="702" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-65" value="响应请求，建立TCP握手成功（具体过程省略&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="323" y="676" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="732" as="sourcePoint" />
+            <mxPoint x="614" y="732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-68" value="发送与控制中心（198.18.0.2）建立TLS四次握手的hello包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="297" y="706" width="326" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="760" as="sourcePoint" />
+            <mxPoint x="1270" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-71" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;客户端向控制中心（100.100.100.100）的UDP敲门端口&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;（默认 UDP 443）发送2个UDP敲门包（携带了SPA种子【或安全码】）&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="719" width="401" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="805" as="sourcePoint" />
+            <mxPoint x="1270" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-73" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1275" y="771" as="sourcePoint" />
+            <mxPoint x="1271" y="796" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1238" y="767" />
+              <mxPoint x="1241" y="792" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-74" value="SPA安全码校验通过，在ip-table中将该源IP&lt;div&gt;加入到允许访问本机的列表中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="992" y="763" width="248" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1274" y="834" as="sourcePoint" />
+            <mxPoint x="611" y="834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-77" value="响应请求，建立三次握手成功（省略握手过程）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="812" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="870" as="sourcePoint" />
+            <mxPoint x="1270" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-79" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;客户端与控制中心发送TLS包，并在hello包中的目的IP重新封装，然后发送到控制中心&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="618" y="840" width="473" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="900" as="sourcePoint" />
+            <mxPoint x="614" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-82" value="SPA安全校验通过，返回TLS响应数据（具体握手过程省略）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="874" width="339" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609" y="797" as="sourcePoint" />
+            <mxPoint x="297" y="797" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-85" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610.5" y="925" as="sourcePoint" />
+            <mxPoint x="298.5" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-86" value="将数据包的源IP重新封装并发送给客户端，建立TLS链接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="900" width="315" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-87" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="953" as="sourcePoint" />
+            <mxPoint x="612" y="953" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-88" value="发送https请求认证页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="929" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-89" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="984" as="sourcePoint" />
+            <mxPoint x="1270" y="984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-90" value="转发数据至控制中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="617.5" y="955" width="126" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="1015" as="sourcePoint" />
+            <mxPoint x="614" y="1015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-92" value="响应请求，返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1148" y="988" width="126" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-93" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="612.5" y="1045" as="sourcePoint" />
+            <mxPoint x="300.5" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-94" value="将控制中心的https响应数据转发给客户端，&lt;div&gt;认证页面打开成功&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1009" width="248" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
