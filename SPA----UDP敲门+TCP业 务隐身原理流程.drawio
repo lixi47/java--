@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="DA86E5S3Rui6vH5Qsvgz">
-    <mxGraphModel dx="1387" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1146" dy="642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,8 +173,8 @@
             <mxPoint x="1270" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9GgOXBw_nXqRGx3ygDWn-71" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;客户端向控制中心（100.100.100.100）的UDP敲门端口&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;（默认 UDP 443）发送2个UDP敲门包（携带了SPA种子【或安全码】）&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(255, 181, 112), rgb(255, 0, 0));&quot;&gt;加密包&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="687" y="719" width="447" height="41" as="geometry" />
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-71" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;客户端向控制中心（100.100.100.100）的UDP敲门端口&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;（默认 UDP 443）发送2个UDP敲门包（携带了SPA种子【或安全码】）&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(255, 181, 112), rgb(255, 0, 0));&quot;&gt;UDP：&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(255, 181, 112), rgb(255, 0, 0));&quot;&gt;加密包&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="669" y="719" width="484" height="41" as="geometry" />
         </mxCell>
         <mxCell id="9GgOXBw_nXqRGx3ygDWn-72" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
