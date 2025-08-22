@@ -173,8 +173,8 @@
             <mxPoint x="1270" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9GgOXBw_nXqRGx3ygDWn-71" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;客户端向控制中心（100.100.100.100）的UDP敲门端口&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;（默认 UDP 443）发送2个UDP敲门包（携带了SPA种子【或安全码】）&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="710" y="719" width="401" height="41" as="geometry" />
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-71" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;客户端向控制中心（100.100.100.100）的UDP敲门端口&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;（默认 UDP 443）发送2个UDP敲门包（携带了SPA种子【或安全码】）&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(255, 181, 112), rgb(255, 0, 0));&quot;&gt;加密包&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="687" y="719" width="447" height="41" as="geometry" />
         </mxCell>
         <mxCell id="9GgOXBw_nXqRGx3ygDWn-72" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
