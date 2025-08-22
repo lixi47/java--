@@ -267,9 +267,6 @@
         <mxCell id="9GgOXBw_nXqRGx3ygDWn-94" value="将控制中心的https响应数据转发给客户端，&lt;div&gt;认证页面打开成功&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="342" y="1009" width="248" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="ozHv8Zmw7Gmb9TReNwIe-2" value="&amp;nbsp; &amp;nbsp; SPA码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="448" y="732" width="66" height="26" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
