@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="DA86E5S3Rui6vH5Qsvgz">
-    <mxGraphModel dx="1648" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+    <mxGraphModel dx="549" dy="375" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -270,8 +270,8 @@
         <mxCell id="ozHv8Zmw7Gmb9TReNwIe-3" value="客户端虚拟网卡和控制中心建立三次握手" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="611" y="780" width="234" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ozHv8Zmw7Gmb9TReNwIe-4" value="保存：linux的IP table（防护墙）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1278" y="770.5" width="191" height="26" as="geometry" />
+        <mxCell id="ozHv8Zmw7Gmb9TReNwIe-4" value="保存：linux的ip&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tables（防护墙）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1278" y="770.5" width="192" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
