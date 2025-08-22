@@ -210,8 +210,8 @@
             <mxPoint x="1270" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9GgOXBw_nXqRGx3ygDWn-79" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;客户端与控制中心发送TLS包，并在hello包中的目的IP重新封装，然后发送到控制中心&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="618" y="840" width="473" height="26" as="geometry" />
+        <mxCell id="9GgOXBw_nXqRGx3ygDWn-79" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;客户端与控制中心发送TLS包，并在hello包中的目的IP重新封装（中间内嵌SPA码），然后发送到控制中心&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="621" y="841" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9GgOXBw_nXqRGx3ygDWn-80" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -269,6 +269,9 @@
         </mxCell>
         <mxCell id="ozHv8Zmw7Gmb9TReNwIe-3" value="客户端虚拟网卡和控制中心建立三次握手" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="611" y="780" width="234" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ozHv8Zmw7Gmb9TReNwIe-4" value="保存：linux的IP static" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="770.5" width="133" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
