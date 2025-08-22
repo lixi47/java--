@@ -1,0 +1,290 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="第 1 页" id="CifOOyTW4KIAJjOc3oxm">
+    <mxGraphModel dx="3466" dy="2257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3CmgEedNmWU71iGY2jcA-1" value="DNS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=29;" parent="1" vertex="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-4" value="代理网关PROXY&lt;div&gt;ip 1.1.1.1&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-5" value="控制中心SDPC" style="whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-6" value="资源服务器&lt;div&gt;IP 1.1.1.10&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-7" value="浏览器输入&lt;div&gt;https;//www.sdpc.com&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="300" y="140" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-8" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;verticalAlign=middle;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="197" y="335.41" as="sourcePoint" />
+            <mxPoint x="567" y="335" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-9" value="返回解析结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="203" y="289" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="270" as="sourcePoint" />
+            <mxPoint x="200" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-11" value="找DNS解析www.sdpc.com" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="465" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-12" value="客户端向sdpc请求认证&lt;div&gt;界面 get www.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sdpc.com&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="593" y="307" width="252" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-13" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;登录sdpc的过程&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=light-dark(#000000,#FF0000);" parent="1" vertex="1">
+          <mxGeometry x="1300" y="190" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-14" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="363" as="sourcePoint" />
+            <mxPoint x="1970" y="363" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-15" value="返回登陆界面到浏览器" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="1694" y="387" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-16" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;rounded=0;fontColor=none;labelBackgroundColor=none;noLabel=1;textShadow=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1960" y="415" as="sourcePoint" />
+            <mxPoint x="550" y="415" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-19" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="140" as="sourcePoint" />
+            <mxPoint x="560" y="2065" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-23" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1720" y="140" as="sourcePoint" />
+            <mxPoint x="1720" y="2340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1960" y="140" as="sourcePoint" />
+            <mxPoint x="1960" y="2340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2200" y="140" as="sourcePoint" />
+            <mxPoint x="2200" y="2360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-26" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;horizontal=1;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="549" y="487" as="sourcePoint" />
+            <mxPoint x="549" y="577" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="499" y="487" />
+              <mxPoint x="499" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-27" value="展示登录界面给用户" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="406" y="441" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-28" value="用户输入账号密码" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="409" y="571" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-29" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="586" as="sourcePoint" />
+            <mxPoint x="1970" y="596" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-30" value="浏览器提交输入的账号密码" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="629" y="546" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-31" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1966.8" y="678" as="sourcePoint" />
+            <mxPoint x="566" y="668" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-32" value="检测账号密码通过，返回&amp;lt;应用中心&amp;gt;界面给路由器，下发用户策略，资源给atrust客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="635" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-33" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;horizontal=1;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="561" y="717" as="sourcePoint" />
+            <mxPoint x="561" y="807" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="511" y="717" />
+              <mxPoint x="511" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-34" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;horizontal=1;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="836" as="sourcePoint" />
+            <mxPoint x="560" y="926" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="836" />
+              <mxPoint x="510" y="926" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-35" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;horizontal=1;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="967" as="sourcePoint" />
+            <mxPoint x="560" y="1057" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="967" />
+              <mxPoint x="510" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-36" value="检测到本地有客户端捡起客户端&lt;div&gt;客户端从sdpc获取用户策略&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="320" y="747" width="204" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-37" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;客户端在电脑上生成临时路由（路由仅atrust在线时存在）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;1.1.1.10 255.255.255.255 nexthop 2.0.1.1&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="556" y="849" width="528" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-38" value="1用户打开系统本地mstsc（windows远程访问），输入ip，账号，密码&amp;nbsp;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;点击远程连接&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2 mstsc客户端封装数据 192.168.1.1 --&amp;gt; 1.1.1.10/TCP 3389&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="560" y="968" width="630" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1280" y="145" as="sourcePoint" />
+            <mxPoint x="1280" y="2345" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-42" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="563.03" y="1166" as="sourcePoint" />
+            <mxPoint x="1283.9712339154412" y="1166" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-44" value="内核查看系统路由表，将这个远程连接的数据交给虚拟网卡（atrust客户端）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="556" y="1095" width="690" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-45" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;horizontal=1;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1280" y="1202" as="sourcePoint" />
+            <mxPoint x="1280" y="1292" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1229.94" y="1202" />
+              <mxPoint x="1229.94" y="1292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-46" value="拆开数据包，检查目的ip&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;为&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;为1.1.1.10端口为TCP3389&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="954" y="1223" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-49" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;进入访问隧道资源&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;的过程（举例：&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;font&gt;1.1.1.10&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;的3389端口）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=38;fontColor=light-dark(#000000,#FF0000);" parent="1" vertex="1">
+          <mxGeometry x="1308" y="891" width="392" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-51" value="PC本地atrust客户端生成的虚拟网卡IP2.0.1.1" style="whiteSpace=wrap;html=1;textShadow=1;fontSize=27;" parent="1" vertex="1">
+          <mxGeometry x="960" y="80" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-53" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1280" y="1376" as="sourcePoint" />
+            <mxPoint x="1715.9410903033088" y="1376" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-54" value="请求和peoxy建立（sock代理）连接（短连接）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="1319" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-55" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1720" y="1460" as="sourcePoint" />
+            <mxPoint x="1280" y="1460" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-56" value="响应，建立连接成功" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1493" y="1409" width="198" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-57" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1284" y="1625" as="sourcePoint" />
+            <mxPoint x="1724" y="1625" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-58" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;将访问服务器3389端口的数据包的传输层，应用层信息&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;剥离出来，封装隧道数据包的头部，并发送到prxoy&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#FF0000);fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="1538" width="454" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-61" value="操作系统内核/浏器pc本地软件&lt;div&gt;ip192.168.1.1&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="440" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-64" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1724" y="1701" as="sourcePoint" />
+            <mxPoint x="2204" y="1701" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-65" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;proxy将数据头部测出来，并重新&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;给该原始数据封装一二三层的信息&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;，并发送给服务器（数据的目的ip为&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;1.1.1.10，源IP为设备的IP或虚拟&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;IP池IP，源IP是那个类型的IP&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span&gt;具体由控制中心策略决定）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;textShadow=0;fontColor=light-dark(#000000,#FF0000);fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1738" y="1512" width="334" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-66" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="2200" y="1791" as="sourcePoint" />
+            <mxPoint x="1720" y="1791" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-67" value="&lt;font&gt;服务器响应数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="1742" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-68" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1720" y="1879" as="sourcePoint" />
+            <mxPoint x="1280" y="1879" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-69" value="&lt;font style=&quot;font-size: 20px; color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;将服务器响应数据的传输层，应用层信息剥离&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px; color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;出来封装到隧道数据包头部，并发送到客户端&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1282" y="1797" width="418" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-70" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1285" y="1927" as="sourcePoint" />
+            <mxPoint x="565" y="1927" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-71" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;客户端将proxy传过来的头部信息进行剥去，重新封装一二三层信息并返回数据包&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;给mstsc客户端（源IP1.1.1.10目的IP192.168.1.1）&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=light-dark(#000000,#FF0000);" parent="1" vertex="1">
+          <mxGeometry x="543" y="1835" width="727" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3CmgEedNmWU71iGY2jcA-73" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 30px;&quot;&gt;访问3389成功&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1922" width="205" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="BXriTyv-iWoOhmdObdw--1" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="145" as="sourcePoint" />
+            <mxPoint x="200" y="2079" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
