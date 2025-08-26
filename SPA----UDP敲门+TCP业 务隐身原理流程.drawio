@@ -270,8 +270,8 @@
         <mxCell id="ozHv8Zmw7Gmb9TReNwIe-3" value="客户端虚拟网卡和控制中心建立三次握手" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="611" y="780" width="234" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ozHv8Zmw7Gmb9TReNwIe-4" value="保存：linux的ip&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tables（防护墙）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1278" y="770.5" width="192" height="26" as="geometry" />
+        <mxCell id="ozHv8Zmw7Gmb9TReNwIe-4" value="保存：linux的ip&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tables&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1308" y="770.5" width="132" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
